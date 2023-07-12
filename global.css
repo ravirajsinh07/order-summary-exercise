@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    /* colors : */
+
+    --pale-blue:hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+}
+.red-hat-display{
+    font-family: 'Red Hat Display', sans-serif;
+}
+@media (max-width: 1440px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(./images/pattern-background-mobile.svg);
+        padding: 30px 15px;
+    }
+}
